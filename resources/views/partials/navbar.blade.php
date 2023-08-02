@@ -28,6 +28,7 @@
           <a class="nav-link btn btn-sm" href="/#about">Tracer Study</a>
           <a class="nav-link btn btn-sm" href="/#statistik">Statistik</a>
           <a class="nav-link btn btn-sm" href="/search">Cari Alumni</a>
+          <a class="nav-link btn btn-sm" href="/lacak">Lacak Alumni</a>
         </div>
         @auth
         {{-- <a class="nav-link" href="/logout">Logout</a> --}}

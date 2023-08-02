@@ -5,6 +5,7 @@ use App\Models\Pekerjaan;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WorkController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\LacakController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\AlumniController;
 use App\Http\Controllers\RegisterController;
@@ -319,6 +320,7 @@ Route::get('/', function () {
 });
 
 Route::get('/search', [PencarianController::class, "index"]);
+Route::get('/lacak', [LacakController::class, "index"]);
 
 Route::get('/login', [LoginController::class, "index"])->name('login')->middleware("guest");
 Route::post('/login', [LoginController::class, "authenticate"]);

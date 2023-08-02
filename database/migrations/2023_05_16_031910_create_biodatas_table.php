@@ -21,6 +21,7 @@ return new class extends Migration
             $table->year("thnLulus")->nullable();
             $table->string("ipk")->nullable();
             $table->string("tempatLahir")->nullable();
+            $table->string("koordinat")->nullable();
             $table->date("tglLahir")->nullable();
             $table->string("jk");
             $table->string("agama")->nullable();

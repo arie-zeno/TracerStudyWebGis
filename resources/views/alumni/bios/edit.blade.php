@@ -51,6 +51,13 @@
     </div>
 
     <div class="mb-3">
+        <label for="koordinat" class="form-label">Tempat Tinggal Asal</label>
+        <div class="input-group">
+            <input type="text"  class="form-control" name="koordinat" required placeholder="Contoh : -3.299093373224937, 114.58592704949446" value="{{$bio->koordinat}}">
+        </div>
+    </div>
+
+    <div class="mb-3">
         <label for="jk" class="form-label">Jenis Kelamin</label>
         <select id="jk" class="form-select" aria-label="Default select example" name="jk" >
             <option selected value="{{ $bio->jk }}">{{ $bio->jk }}</option>

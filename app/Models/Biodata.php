@@ -19,6 +19,7 @@ class Biodata extends Model
             'jk',
             'tempatLahir',
             'tglLahir',
+            'koordinat',
             'agama',
             'pekerjaan',
             'kawin',

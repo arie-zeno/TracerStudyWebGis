@@ -28,6 +28,7 @@ class BiodataImport implements ToModel
             'agama'     => $row[10],
             'kawin'     => $row[11],
             'pekerjaan'     => $row[12],
+            'koordinat'     => $row[13],
         ]);
     }
 }
